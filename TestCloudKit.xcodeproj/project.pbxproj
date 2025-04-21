@@ -6,8 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		046591142DB3BDE800AE5AD6 /* HometView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591132DB3BDE800AE5AD6 /* HometView.swift */; };
+		0465911F2DB3BFA000AE5AD6 /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465911E2DB3BFA000AE5AD6 /* PrintManager.swift */; };
+		046591252DB3C3E100AE5AD6 /* HandTap_icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591242DB3C3E100AE5AD6 /* HandTap_icon.swift */; };
+		046591272DB3C7D600AE5AD6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591262DB3C7D600AE5AD6 /* HeaderView.swift */; };
+		046591292DB45D2D00AE5AD6 /* iCloudTestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591282DB45D2D00AE5AD6 /* iCloudTestManager.swift */; };
+		0465912E2DB4ADE800AE5AD6 /* CheckStatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465912D2DB4ADE800AE5AD6 /* CheckStatusButton.swift */; };
+		046591322DB4BB1200AE5AD6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591312DB4BB1200AE5AD6 /* SettingsView.swift */; };
+		0465913A2DB4C45200AE5AD6 /* CombiendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591392DB4C45200AE5AD6 /* CombiendView.swift */; };
+		0465913C2DB4C49700AE5AD6 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465913B2DB4C49700AE5AD6 /* DebugView.swift */; };
+		0465913E2DB4C79F00AE5AD6 /* TopRightMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465913D2DB4C79F00AE5AD6 /* TopRightMenu.swift */; };
+		046591402DB4CAF400AE5AD6 /* MenuNavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465913F2DB4CAF400AE5AD6 /* MenuNavigationRouter.swift */; };
+		046591422DB4CD7300AE5AD6 /* MainHomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591412DB4CD7300AE5AD6 /* MainHomeContentView.swift */; };
+		046591492DB4D55700AE5AD6 /* InputFieldAndSendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046591482DB4D55700AE5AD6 /* InputFieldAndSendData.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0465910E2DB3BDE800AE5AD6 /* TestCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046591132DB3BDE800AE5AD6 /* HometView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HometView.swift; sourceTree = "<group>"; };
+		0465911E2DB3BFA000AE5AD6 /* PrintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
+		046591242DB3C3E100AE5AD6 /* HandTap_icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTap_icon.swift; sourceTree = "<group>"; };
+		046591262DB3C7D600AE5AD6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		046591282DB45D2D00AE5AD6 /* iCloudTestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudTestManager.swift; sourceTree = "<group>"; };
+		0465912D2DB4ADE800AE5AD6 /* CheckStatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckStatusButton.swift; sourceTree = "<group>"; };
+		046591312DB4BB1200AE5AD6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		046591392DB4C45200AE5AD6 /* CombiendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiendView.swift; sourceTree = "<group>"; };
+		0465913B2DB4C49700AE5AD6 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		0465913D2DB4C79F00AE5AD6 /* TopRightMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRightMenu.swift; sourceTree = "<group>"; };
+		0465913F2DB4CAF400AE5AD6 /* MenuNavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNavigationRouter.swift; sourceTree = "<group>"; };
+		046591412DB4CD7300AE5AD6 /* MainHomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeContentView.swift; sourceTree = "<group>"; };
+		046591482DB4D55700AE5AD6 /* InputFieldAndSendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldAndSendData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +61,9 @@
 		046591052DB3BDE800AE5AD6 = {
 			isa = PBXGroup;
 			children = (
+				046591352DB4C3F000AE5AD6 /* Screen */,
+				0465911D2DB3BE2B00AE5AD6 /* Logic */,
+				0465911C2DB3BDFE00AE5AD6 /* Component */,
 				046591102DB3BDE800AE5AD6 /* TestCloudKit */,
 				0465910F2DB3BDE800AE5AD6 /* Products */,
 			);
@@ -43,6 +75,56 @@
 				0465910E2DB3BDE800AE5AD6 /* TestCloudKit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0465911C2DB3BDFE00AE5AD6 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				046591242DB3C3E100AE5AD6 /* HandTap_icon.swift */,
+				046591262DB3C7D600AE5AD6 /* HeaderView.swift */,
+				0465912D2DB4ADE800AE5AD6 /* CheckStatusButton.swift */,
+				0465913D2DB4C79F00AE5AD6 /* TopRightMenu.swift */,
+				0465913F2DB4CAF400AE5AD6 /* MenuNavigationRouter.swift */,
+				046591482DB4D55700AE5AD6 /* InputFieldAndSendData.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0465911D2DB3BE2B00AE5AD6 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0465911E2DB3BFA000AE5AD6 /* PrintManager.swift */,
+				046591282DB45D2D00AE5AD6 /* iCloudTestManager.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		046591352DB4C3F000AE5AD6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				046591382DB4C42C00AE5AD6 /* Combined */,
+				046591362DB4C40D00AE5AD6 /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		046591362DB4C40D00AE5AD6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				046591132DB3BDE800AE5AD6 /* HometView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		046591382DB4C42C00AE5AD6 /* Combined */ = {
+			isa = PBXGroup;
+			children = (
+				046591312DB4BB1200AE5AD6 /* SettingsView.swift */,
+				046591392DB4C45200AE5AD6 /* CombiendView.swift */,
+				0465913B2DB4C49700AE5AD6 /* DebugView.swift */,
+				046591412DB4CD7300AE5AD6 /* MainHomeContentView.swift */,
+			);
+			path = Combined;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046591272DB3C7D600AE5AD6 /* HeaderView.swift in Sources */,
+				046591322DB4BB1200AE5AD6 /* SettingsView.swift in Sources */,
+				046591422DB4CD7300AE5AD6 /* MainHomeContentView.swift in Sources */,
+				0465912E2DB4ADE800AE5AD6 /* CheckStatusButton.swift in Sources */,
+				046591292DB45D2D00AE5AD6 /* iCloudTestManager.swift in Sources */,
+				046591252DB3C3E100AE5AD6 /* HandTap_icon.swift in Sources */,
+				046591142DB3BDE800AE5AD6 /* HometView.swift in Sources */,
+				046591492DB4D55700AE5AD6 /* InputFieldAndSendData.swift in Sources */,
+				0465913C2DB4C49700AE5AD6 /* DebugView.swift in Sources */,
+				0465913A2DB4C45200AE5AD6 /* CombiendView.swift in Sources */,
+				0465913E2DB4C79F00AE5AD6 /* TopRightMenu.swift in Sources */,
+				0465911F2DB3BFA000AE5AD6 /* PrintManager.swift in Sources */,
+				046591402DB4CAF400AE5AD6 /* MenuNavigationRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestCloudKit/TestCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6CWV69GPSZ;
@@ -279,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestCloudKit/TestCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6CWV69GPSZ;
